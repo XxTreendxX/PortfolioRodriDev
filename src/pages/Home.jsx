@@ -5,16 +5,16 @@ function Home() {
     <section className="min-h-screen flex flex-col justify-center items-center bg-gray-950 text-white">
       <div className="text-center">
         <h1 className="text-5xl sm:text-6xl font-extrabold mb-4 tracking-tight">
-          Hello, I’m <span className="text-blue-500">Rodrigo Otreras</span>
+          Hola, soy <span className="text-blue-500">Rodrigo Otreras</span>
         </h1>
         <p className="text-x1 sm:text-2x1 text-gray-300 mb-8">
-          Full-Stack Web Developer — Creating modern and secure solutions.
+          Full-Stack Web Developer — Creando soluciones modernas y seguras.
         </p>
         <Link
           to="/projects"
           className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-semibold shadow-lg hover:scale-105 transition duration-300"
         >
-          View my projects
+          Ver mis proyectos
         </Link>
       </div>
 
@@ -34,7 +34,7 @@ function Home() {
             d="M12 5v14m0 0-7-7m7 7 7-7"
           />
         </svg>
-        <p className="text-sm mt-2 text-blue-400">Swipe to see more</p>
+        <p className="text-sm mt-2 text-blue-400">Ver mas</p>
       </div>
     </section>
   );
