@@ -7,17 +7,17 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
-  return(
+  return (
     <>
-      <Home/>
-      <About/>
-      <Project/>
-      <Skills/>
-      <Contact/>
-      <Navbar/>
-      <Footer/>
+      <Home />
+      <About />
+      <Project />
+      <Skills />
+      <Contact />
+      <Navbar />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App;
