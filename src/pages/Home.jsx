@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center bg-gray-950 text-white">
@@ -8,12 +10,12 @@ function Home() {
         <p className="text-x1 sm:text-2x1 text-gray-300 mb-8">
           Full-Stack Web Developer — Creating modern and secure solutions.
         </p>
-        <a
-          href="#projects"
-          className="inline-block px-8 py-3 bg-blue-800 hover:bg-blue-500 text-white rounded-full font-semibold shadow-lg hover: scale-105 transition duration-500"
+        <Link
+          to="/projects"
+          className="inline-block px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-semibold shadow-lg hover:scale-105 transition duration-300"
         >
           View my projects
-        </a>
+        </Link>
       </div>
 
       <div className="mt-12 opacity-60 animate-bounce">
