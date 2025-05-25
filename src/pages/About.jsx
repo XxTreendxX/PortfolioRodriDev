@@ -2,7 +2,10 @@ import { FaUser, FaLightbulb, FaBullseye, FaBriefcase } from "react-icons/fa";
 
 function About() {
   return (
-    <section className="py-16 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 min-h-screen">
+    <section
+      id="about"
+      className="py-16 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 min-h-screen"
+    >
       <div className="max-w-3xl mx-auto px-6">
         {/* Eslogan */}
         <h2 className="text-3xl sm:text-4xl font-extrabold text-blue-400 mb-8 text-center tracking-tight drop-shadow-lg">
