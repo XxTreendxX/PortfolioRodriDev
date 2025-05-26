@@ -3,7 +3,7 @@ export const projects = [
     nombre: "Portfolio Web",
     descripcion: "Mi portfolio profesional, construido con React y Tailwind CSS.",
     tecnologias: ["React", "Tailwind CSS"],
-    imagen: "src/assets/portfolio.jpg",
+    imagen: "/portfolio.jpg",
     demo: "#",
     github: "#"
   },

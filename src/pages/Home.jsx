@@ -18,7 +18,7 @@ function Home() {
               className="mb-2"
             >
               <img
-                src="./src/assets/rno4.jpg"
+                src="/rno4.jpg"
                 alt=""
                 className="w-32 h-32 rounded-full object-cover border-4 border-blue-500 shadow-xl
               hover:scale-105 transition duration-300
