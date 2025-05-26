@@ -4,16 +4,16 @@ export const projects = [
     descripcion: "Mi portfolio profesional, construido con React y Tailwind CSS.",
     tecnologias: ["React", "Tailwind CSS"],
     imagen: "/portfolio.jpg",
-    demo: "#",
-    github: "#"
+    demo: "https://www.rodridev.com",
+    github: "https://github.com/XxTreendxX/PortfolioRodriDev"
   },
   {
-    nombre: "E-Commerce Demo",
-    descripcion: "Tienda online simulada con carrito y pasarela de pago (demo visual).",
-    tecnologias: ["React", "Node.js", "MongoDB"],
-    imagen: "src/assets/ecommerce-demo.jpg",
-    demo: "#",
-    github: "#"
+    nombre: "Login Demo",
+    descripcion: "Mini proyecto de inicio de sesión con validación de usuario en React.",
+    tecnologias: ["React", "Tailwind CSS"],
+    imagen: "/login-demo.jpg",
+    demo: "https://login-demo-dun.vercel.app/",
+    github: "https://github.com/XxTreendxX/Login-Demo"
   },
   {
     nombre: "App Clima",
