@@ -32,7 +32,7 @@ function Home() {
           <h1 className="pt-10">
             Hola, soy{" "}
             <span className="text-blue-500 drop-shadow-md">
-              Rodrigo Otreras
+              Rodrigo N. Otreras
             </span>
           </h1>
         </motion.h1>
