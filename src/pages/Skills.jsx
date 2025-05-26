@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-// SkillCard, igual que antes
+// Componente SkillCard glassmorphism
 function SkillCard({
   icon,
   name,
@@ -19,10 +19,15 @@ function SkillCard({
   return (
     <div
       className={`
-        bg-gray-800 rounded-2xl shadow-lg flex flex-col items-center p-6
+        bg-white/10 backdrop-blur-lg border border-white/15
+        rounded-2xl shadow-lg flex flex-col items-center p-6
         transition hover:scale-105
         ${shadow} group
       `}
+      style={{
+        boxShadow: "0 4px 32px 0 #3b82f620",
+        border: "1.5px solid rgba(255,255,255,0.10)",
+      }}
     >
       {/* Gráfico circular con icono */}
       <div className="relative mb-3">
@@ -57,7 +62,7 @@ function SkillCard({
       </div>
       {/* Info */}
       <h3 className="text-lg font-bold text-white mt-2 mb-1">{name}</h3>
-      <p className="text-sm text-gray-300 text-center mb-3">{desc}</p>
+      <p className="text-sm text-gray-200 text-center mb-3">{desc}</p>
       <span
         className={`
           inline-block px-3 py-1 text-xs font-bold rounded-full shadow
@@ -70,6 +75,7 @@ function SkillCard({
   );
 }
 
+// Componente principal de Skills
 function Skills() {
   return (
     <section className="py-16 bg-gray-900 min-h-screen">
@@ -130,6 +136,7 @@ function Skills() {
             />
           </motion.div>
 
+          {/* JavaScript */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -164,6 +171,7 @@ function Skills() {
             />
           </motion.div>
 
+          {/* React */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -219,6 +227,7 @@ function Skills() {
             />
           </motion.div>
 
+          {/* Tailwind CSS */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -251,6 +260,8 @@ function Skills() {
               badgeText="text-[#0EA5E9]"
             />
           </motion.div>
+
+          {/* Git & GitHub */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -278,6 +289,7 @@ function Skills() {
             />
           </motion.div>
 
+          {/* React Router */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}

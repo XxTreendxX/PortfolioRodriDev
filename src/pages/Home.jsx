@@ -10,8 +10,32 @@ function Home() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-5xl sm:text-6xl font-extrabold mb-4 tracking-tight"
         >
-          Hola, soy{" "}
-          <span className="text-blue-500 drop-shadow-md">Rodrigo Otreras</span>
+          <div className="flex flex-col items-center text-center gap-6 z-10">
+            {/* FOTO (subí tu imagen y cambiá el src) */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.85 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+              className="mb-2"
+            >
+              <img
+                src="/ruta/a/tu-foto.jpg"
+                alt=""
+                className="w-32 h-32 rounded-full object-cover border-4 border-blue-500 shadow-xl
+              hover:scale-105 transition duration-300
+              hover:shadow-[0_0_32px_0_#3b82f6cc]"
+                style={{
+                  boxShadow: "0 0 32px 0 #3b82f680",
+                }}
+              />
+            </motion.div>
+          </div>
+          <h1 className="pt-10">
+            Hola, soy{" "}
+            <span className="text-blue-500 drop-shadow-md">
+              Rodrigo Otreras
+            </span>
+          </h1>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 30 }}
@@ -27,4 +51,3 @@ function Home() {
 }
 
 export default Home;
-

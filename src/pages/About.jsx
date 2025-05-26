@@ -68,36 +68,7 @@ function About() {
             </p>
           </div>
         </div>
-        {/* Experiencia Laboral */}
-        <div className="mt-14">
-          <h4 className="text-lg sm:text-xl font-bold text-amber-400 tracking-wide flex items-center gap-2 mb-4">
-            <FaBriefcase className="text-amber-300 text-xl" />
-            Experiencia Laboral
-          </h4>
-          {/* inicio exp laboral */}
-          <div className="bg-gray-800/80 rounded-xl shadow-lg p-6 mb-6 border-l-4 border-amber-400">
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
-              <span className="font-bold text-amber-300 text-base">
-                Nombre de la Empresa
-              </span>
-              <span className="text-gray-400 text-sm italic">
-                Fecha de inicio – Fecha de fin
-              </span>
-            </div>
-            <span className="inline-block bg-amber-900/60 text-amber-200 text-xs font-semibold px-3 py-1 rounded-full mb-3">
-              Puesto ocupado
-            </span>
-            <ul className="list-disc pl-6 text-gray-300 space-y-1">
-              <li>Responsabilidad principal o logro #1.</li>
-              <li>Responsabilidad principal o logro #2.</li>
-              <li>
-                Uso de tecnologías:{" "}
-                <span className="text-amber-200">React, Node.js</span> (por
-                ejemplo)
-              </li>
-            </ul>
-          </div>
-        </div>
+
         <div className="mt-14">
           <h4 className="text-lg sm:text-xl font-bold text-cyan-400 tracking-wide mb-4">
             Educación
@@ -130,6 +101,36 @@ function About() {
                 {/* Agregá más cursos cuando quieras */}
               </ul>
             </div>
+          </div>
+        </div>
+        {/* Experiencia Laboral */}
+        <div className="mt-14">
+          <h4 className="text-lg sm:text-xl font-bold text-amber-400 tracking-wide flex items-center gap-2 mb-4">
+            <FaBriefcase className="text-amber-300 text-xl" />
+            Experiencia Laboral
+          </h4>
+          {/* inicio exp laboral */}
+          <div className="bg-gray-800/80 rounded-xl shadow-lg p-6 mb-6 border-l-4 border-amber-400">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+              <span className="font-bold text-amber-300 text-base">
+                Nombre de la Empresa
+              </span>
+              <span className="text-gray-400 text-sm italic">
+                Fecha de inicio – Fecha de fin
+              </span>
+            </div>
+            <span className="inline-block bg-amber-900/60 text-amber-200 text-xs font-semibold px-3 py-1 rounded-full mb-3">
+              Puesto ocupado
+            </span>
+            <ul className="list-disc pl-6 text-gray-300 space-y-1">
+              <li>Responsabilidad principal o logro #1.</li>
+              <li>Responsabilidad principal o logro #2.</li>
+              <li>
+                Uso de tecnologías:{" "}
+                <span className="text-amber-200">React, Node.js</span> (por
+                ejemplo)
+              </li>
+            </ul>
           </div>
         </div>
         {/* Soft Skills */}
