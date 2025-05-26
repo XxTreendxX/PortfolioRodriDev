@@ -47,7 +47,6 @@ function About() {
               cosas de manera más eficiente, simple y humana.
             </p>
           </div>
-          {/* Qué busco */}
           <div className="bg-gray-800/80 rounded-2xl shadow-xl p-7 flex flex-col gap-2 border-l-8 border-purple-400">
             <div className="flex items-center gap-3 mb-1">
               <FaBullseye className="text-purple-300 text-2xl" />

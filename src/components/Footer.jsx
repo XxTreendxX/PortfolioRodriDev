@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="bg-transparent border-t border-gray-800 py-2 text-white">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-4 px-4">
-        {/* Logo RodriDev, vuelve a Home */}
+        {/* mi logo RodriDev */}
         <Link
           to="/"
           className="text-xl font-bold tracking-tight text-blue-500 hover:text-blue-400 transition"

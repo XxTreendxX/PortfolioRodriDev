@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-// Componente Skills
 function SkillCard({
   icon,
   name,
@@ -75,7 +74,7 @@ function SkillCard({
   );
 }
 
-// Componente principal de Skills
+
 function Skills() {
   return (
     <section className="py-16 bg-gray-900 min-h-screen">
