@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function Home() {
   return (
-    <section className="min-h-[80vh] flex flex-col items-center justify-center bg-gradient-to-br from-gray-950 via-gray-900 to-blue-950 text-white px-4">
+    <section className="min-h-[80vh] flex flex-col items-center justify-center text-white px-4">
       <div className="flex flex-col items-center text-center gap-6">
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
@@ -11,7 +11,6 @@ function Home() {
           className="text-5xl sm:text-6xl font-extrabold mb-4 tracking-tight"
         >
           <div className="flex flex-col items-center text-center gap-6 z-10">
-            {/* FOTO */}
             <motion.div
               initial={{ opacity: 0, scale: 0.85 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -19,7 +18,7 @@ function Home() {
               className="mb-2"
             >
               <img
-                src="./src/assets/rno.jpg"
+                src="./src/assets/rno4.jpg"
                 alt=""
                 className="w-32 h-32 rounded-full object-cover border-4 border-blue-500 shadow-xl
               hover:scale-105 transition duration-300

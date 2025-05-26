@@ -2,18 +2,12 @@ import { FaUser, FaLightbulb, FaBullseye, FaBriefcase } from "react-icons/fa";
 
 function About() {
   return (
-    <section
-      id="about"
-      className="py-16 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 min-h-screen"
-    >
+    <section id="about" className="py-16 min-h-screen bg-transparent">
       <div className="max-w-3xl mx-auto px-6">
-        {/* Eslogan */}
         <h2 className="text-3xl sm:text-4xl font-extrabold text-blue-400 mb-8 text-center tracking-tight drop-shadow-lg">
           Aprendiendo hoy para programar el mañana.
         </h2>
-        {/* Bloques principales */}
         <div className="grid gap-8">
-          {/* Quién soy */}
           <div className="bg-gray-800/80 rounded-2xl shadow-xl p-7 flex flex-col gap-2 border-l-8 border-blue-400">
             <div className="flex items-center gap-3 mb-1">
               <FaUser className="text-blue-300 text-2xl" />
@@ -36,7 +30,6 @@ function About() {
               mi forma de trabajar y de relacionarme.
             </p>
           </div>
-          {/* Qué puedo ofrecer */}
           <div className="bg-gray-800/80 rounded-2xl shadow-xl p-7 flex flex-col gap-2 border-l-8 border-green-400">
             <div className="flex items-center gap-3 mb-1">
               <FaLightbulb className="text-green-300 text-2xl" />
@@ -74,7 +67,6 @@ function About() {
             Educación
           </h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Columna 1: Estudios */}
             <div className="bg-gray-800/80 rounded-xl shadow-lg p-6 border-l-4 border-cyan-400">
               <h5 className="text-cyan-200 text-base font-semibold mb-2">
                 Estudios formales
@@ -82,10 +74,8 @@ function About() {
               <ul className="text-gray-300 space-y-1 list-disc pl-4">
                 <li>Escuela Secundaria Ejemplo (2010 – 2015)</li>
                 <li>Facultad Ejemplo, Carrera Ejemplo (2016 – Presente)</li>
-                {/* Agregá más si querés */}
               </ul>
             </div>
-            {/* Columna 2: Cursos */}
             <div className="bg-gray-800/80 rounded-xl shadow-lg p-6 border-l-4 border-blue-400">
               <h5 className="text-blue-200 text-base font-semibold mb-2">
                 Cursos y capacitaciones
@@ -98,12 +88,11 @@ function About() {
                     (En curso)
                   </span>
                 </li>
-                {/* Agregá más cursos cuando quieras */}
+                {/* Agregá más cursos*/}
               </ul>
             </div>
           </div>
         </div>
-        {/* Experiencia Laboral */}
         <div className="mt-14">
           <h4 className="text-lg sm:text-xl font-bold text-amber-400 tracking-wide flex items-center gap-2 mb-4">
             <FaBriefcase className="text-amber-300 text-xl" />
@@ -123,8 +112,8 @@ function About() {
               Puesto ocupado
             </span>
             <ul className="list-disc pl-6 text-gray-300 space-y-1">
-              <li>Responsabilidad principal o logro #1.</li>
-              <li>Responsabilidad principal o logro #2.</li>
+              <li>Responsabilidad principal #1.</li>
+              <li>Responsabilidad principal #2.</li>
               <li>
                 Uso de tecnologías:{" "}
                 <span className="text-amber-200">React, Node.js</span> (por

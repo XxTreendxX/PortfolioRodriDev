@@ -23,7 +23,7 @@ function Contacto() {
   };
 
   return (
-    <section className="py-24 min-h-screen bg-gray-950 via-gray-900 flex flex-col items-center justify-center">
+    <section className="py-24 min-h-screen flex flex-col items-center justify-center">
       <motion.div
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -123,9 +123,9 @@ function Contacto() {
           >
             <FaGithub />
           </a>
-          {/* Telegram: completá tu link cuando lo tengas */}
+          {/* Telegram */}
           <a
-            href="" // <-- completá tu link aquí
+            href="https://t.me/RodriOtreras"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sky-400 hover:text-sky-500 text-3xl transition"
