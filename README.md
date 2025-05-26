@@ -57,14 +57,14 @@ src/
 
 1. **Clona el repositorio:**
    ```sh
-   git clone https://github.com/XxTreendxX/portfolio.git
+   git clone https://github.com/XxTreendxX/PortfolioRodriDev.git
    cd portfolio
 
 ## 📬 Contacto
 
-1. [LinkedIn] (https://www.linkedin.com/in/rodrigo-nahuel-otreras-703a741a1/)
-2. [GitHub] (https://github.com/XxTreendxX)
-3. Contactame desde el formulario del sitio.
+1. https://www.linkedin.com/in/rodrigo-nahuel-otreras-703a741a1/
+2. https://github.com/XxTreendxX
+3. Contactame desde el formulario del sitio. (Proximamente.)
 
 
 ## 💡 Autor
