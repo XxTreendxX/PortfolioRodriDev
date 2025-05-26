@@ -12,7 +12,7 @@ export const projects = [
     descripcion: "Mini proyecto de inicio de sesión con validación de usuario en React.",
     tecnologias: ["React", "Tailwind CSS"],
     imagen: "/login-demo.jpg",
-    demo: "https://login-demo-dun.vercel.app/",
+    demo: "https://login-demo-rodri-dev.vercel.app/",
     github: "https://github.com/XxTreendxX/Login-Demo"
   },
   {
