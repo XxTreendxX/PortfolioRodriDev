@@ -8,20 +8,12 @@ export const projects = [
     github: "https://github.com/XxTreendxX/PortfolioRodriDev"
   },
   {
-    nombre: "Login Demo",
-    descripcion: "Mini proyecto de inicio de sesión con validación de usuario en React.",
+    nombre: "Galería Fotográfica - Login y Autenticación",
+    descripcion: "Sistema de inicio de sesión moderno para una galería de fotografía profesional. Combina seguridad, experiencia visual y una interfaz atractiva, ideal como base para proyectos creativos con gestión de usuarios.",
     tecnologias: ["React", "Tailwind CSS"],
-    imagen: "/login-demo.jpg",
-    demo: "https://login-demo-rodri-dev.vercel.app/",
-    github: "https://github.com/XxTreendxX/Login-Demo"
-  },
-  {
-    nombre: "App Clima",
-    descripcion: "App que muestra el clima actual usando una API pública (demo visual).",
-    tecnologias: ["HTML", "CSS", "JavaScript"],
-    imagen: "src/assets/clima-demo.jpg",
-    demo: "#",
-    github: "#"
+    imagen: "/Fotografia.jpg",
+    demo: "https://galeria-fotografica-login-autenticacion.vercel.app/",
+    github: "https://github.com/XxTreendxX/GaleriaFotografica-LoginAutenticacion"
   }
 ];
 
