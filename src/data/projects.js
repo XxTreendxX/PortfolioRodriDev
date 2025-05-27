@@ -4,7 +4,7 @@ export const projects = [
     descripcion: "Mi portfolio profesional, construido con React y Tailwind CSS.",
     tecnologias: ["React", "Tailwind CSS"],
     imagen: "/portfolio.jpg",
-    demo: "https://www.rodridev.com",
+    demo: "https://www.rodridev.com.ar",
     github: "https://github.com/XxTreendxX/PortfolioRodriDev"
   },
   {
