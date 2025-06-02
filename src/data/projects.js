@@ -24,7 +24,7 @@ export const projects = [
       "Proyecto web responsive para un festival de música. Incluye LineUp, galería de imágenes interactiva, y sección de boletos. Todo el código está modularizado para fácil mantenimiento y escalabilidad.",
     tecnologias: ["HTML5", "SCSS (Sass)", "JavaScript", "Node.js", "Gulp"],
     imagen: "/FestivalMusica.png",
-    demo: "https://www.rodridev.com.ar",
+    demo: "https://festival-musica-delta.vercel.app",
     github: "https://github.com/XxTreendxX/PortfolioRodriDev",
   },
 ];
